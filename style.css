@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 234, 234);
+}
+
+
+.bg-img{
+   font-family: "Raleway", Arial, Helvetica, sans-serif;
+   background-image: url("images/hotel.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 900px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+span a:hover{
+    background-color: lightgrey;
+}
+
+.logo{
+    background-color: rgb(248, 63, 63);
+}
+.book-now button{
+    padding: 10px;
+    font-size: 15px;
+    border: none; 
+    
+}
+
+.book-now button:hover{
+    background-color: rgb(211, 211, 211);
+}
+/* .bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+} */
+.first-heading{
+    background-color:rgba(0, 255, 115, 0.815) ;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.container{
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 500px;
+    background-color: rgba(60, 179, 114, 0.363);
+    padding-left: 10px;
+     padding: 20px 20px;
+}
+.form-info {
+    width: 80%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:rgb(255, 242, 239);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    height: 20px;
+  }
+  label{
+      color: white;
+  }
+
+  .form-text{
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #E02C6D;
+  }
+
+  .btn{
+      background-color: lightgrey;
+      padding: 10px 60px;
+  }
+/* ------------ */
+
+  .hotel-slogan{
+      margin-top: 30px;
+      padding-left: 50px;
+      color: rgb(42, 41, 41);
+  }
+
+  .room{
+      font-size: 35px;
+      font-weight:lighter;
+  }
+
+/* ----------------- */
+
+.card-part{
+
+    margin-top: 50px;
+}
+  .card-section img{
+      width: 100%;
+  }
+
+  .card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        margin: 50px;
+
+        
+
+    }
+    
+    .card-section {
+        padding: 20px;
+        box-shadow: 10px 10px 40px rgb(37, 36, 36);
+        margin-bottom: 30px;
+        border: 7px solid;
+        border-image: linear-gradient(rgb(17, 255, 156), rgb(100, 236, 141));
+        border-image-slice: 1;
+        background-color: white;
+    }
+
+    .card-section:hover{
+        border: 7px solid;
+        border-image: linear-gradient(rgb(46, 230, 246), rgb(139, 218, 250));
+        border-image-slice: 1;
+    }
+
+    .card-btn{
+        border: none;
+        background-color: black;
+        margin: 0 20px;
+        color: white;
+        padding: 15px 100px;
+        overflow: hidden;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+    .card-btn:hover{
+        background-color: lightgrey;
+        color: rgb(47, 44, 44);
+    }
+
+    .single{
+        margin-top: 20px;
+        font-size: 25px;
+        
+    }
+    #price{
+        color: rgb(156, 147, 147);
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .icon{
+        margin-top: 20px;
+    }
+
+    .Road-map{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px;
+
+    }
+    .map img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .address{
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    .fa-map-marker-alt{
+        color: rgb(248, 63, 63);
+    }
+    .fa-phone-alt{
+        color: rgb(248, 63, 63);
+    }
+    .fa-envelope{
+        color: rgb(248, 63, 63);
+    }
