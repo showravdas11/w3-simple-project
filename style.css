@@ -102,6 +102,7 @@ span a:hover{
 
   .room{
       font-size: 35px;
+      padding-left: 2px;
       font-weight:lighter;
   }
 
@@ -187,6 +188,7 @@ span a:hover{
     .info{
         display: flex;
         align-items: center;
+        font-size: 20px;
         width: 100%;
     }
 
@@ -203,4 +205,133 @@ span a:hover{
     }
     .fa-envelope{
         color: rgb(248, 63, 63);
+    }
+
+    .payment{
+        margin-top: 10px;
+    }
+    .about{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .offer{
+        background-color: rgb(248, 63, 63);
+        padding: 40px 5px;
+        color: white;
+        margin-top: 30px;
+    }
+    .offer-text{
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+
+    .hotel-sector{
+        margin-top: 30px;
+
+    }
+    h2{
+        font-size: 30px;
+        font-weight: lighter;
+        padding-left: 50px;
+    }
+    .find{
+        margin-top: 15px;
+        color: gray;
+        padding-left: 50px;
+    }
+    .our-hotle img{
+        width: 100%;
+    }
+    /* .our-hotle{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    /* .our-hotle{
+        margin-top: 30px;
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 20PX;
+        grid-row-gap: 20px;
+    } */
+    .our-hotle{
+        position: relative;
+        height: auto;
+        width: 90%;
+        margin: 50px;
+        padding: 45px 0;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        grid-auto-flow: dense;
+    }
+    .img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .cinqueterre{
+         grid-column-start: span 2;
+         grid-row-start: span 2;
+    }
+    .img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.5) grayscale(100);
+        transition: 0.3s ease-in-out;
+    }
+
+    .img:hover img{
+        filter: brightness(1) grayscale(0);
+    }
+
+    .best-offer{
+        background-color: gray;
+        padding: 50px;
+        padding-left: 30px;
+        color: white;
+    }
+    .offers{
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .offer-text{
+        margin-top: 15px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+    }
+
+    .email{
+        padding: 15px;
+        width: 100%;
+        border: none;
+    }
+    .subscribe{
+        padding:  10px 15px;
+        color: white;
+        background-color: rgb(248, 63, 63);
+        border: none;
+        margin-top: 10px;
+    }
+
+    .best-offer:hover{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .subscribe:hover{
+        background-color: rgb(172, 230, 230);
+        color: black;
+    }
+
+
+    
+    .contact{
+        width: 100%;
+        padding: 12px 30px;
+        margin: 8px 0;
+        border-radius: 4px;
     }
