@@ -263,7 +263,6 @@ span a:hover{
     .our-hotle{
         position: relative;
         height: auto;
-        width: 90%;
         margin: 50px;
         padding: 45px 0;
         display: grid;
@@ -342,6 +341,7 @@ span a:hover{
     .contact-form{
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-top: 50px;
     }
 
@@ -362,11 +362,7 @@ span a:hover{
     textarea{
         width: 108%;
     }
-   .new{
-    border: 3px solid rgb(248, 63, 63);
-    border-radius: 5px;
-    width: 20%;
-    }
+
 
     .footer-text{
         text-align: center;
@@ -419,7 +415,7 @@ span a:hover{
         }
         .offer{
             background-color: rgb(248, 63, 63);
-            padding: 40px 5px;
+            padding: 30px 0;
             color: white;
             margin-top: 30px;
         }
@@ -442,6 +438,24 @@ span a:hover{
 
         textarea{
             width: 65%;
+        }
+        .img{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        
+        .our-hotle{
+            position: relative;
+            height: auto;
+            margin: 50px;
+            padding: 45px 0;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+            grid-auto-flow: dense;
         }
     }
 
